@@ -33,14 +33,15 @@ The folder structure of this app is explained below:
 
 | Name | Description |
 | ------------------------ | --------------------------------------------------------------------------------------------- |
-| **/config**        | Database configuration
-| **/controllers**      | Controllers define functions to serve various express routes. 
-| **/middlewares**      | Express middlewares which process the incoming requests before handling them down to the routes
-| **/routes**           | Contain all express routes, separated by module/area of application                       
-| **/models**           | Models define schemas that will be used in storing and retrieving data from Application database  |
-| **/index.js**         | Entry point to express app                                                               |
-| **/package.json**             | Contains npm dependencies as well as [Running scripts](#what-if-a-library-isnt-on-definitelytyped)   |
-| **/.env**             | Contains environment variables (Must be written in .gitignore because we don't want our keys on GitHub)   |
+| **config**        | Database configuration
+| **controllers**      | Controllers define functions to serve various express routes. 
+| **middlewares**      | Express middlewares which process the incoming requests before handling them down to the routes
+| **routes**           | Contain all express routes, separated by module/area of application                       
+| **models**           | Models define schemas that will be used in storing and retrieving data from Application database  |
+| **public**    | Public contains all static files |
+| **index.js**         | Entry point to express app                                                               |
+| **package.json**             | Contains npm dependencies as well as [Running scripts](#what-if-a-library-isnt-on-definitelytyped)   |
+| **.env**             | Contains environment variables (Must be written in .gitignore because we don't want our keys on GitHub)   |
 
 ### package.json
 Some packages may become outdated so be sure to update them to the latest version
