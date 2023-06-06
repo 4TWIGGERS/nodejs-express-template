@@ -9,6 +9,14 @@
 ```
 git clone https://github.com/4TWIGGERS/nodejs-express-template.git
 ```
+- Add ".env" in .gitignore
+```
+node_modules
+yarn.lock
+package-lock.json
++ .env
+```
+
 - Install dependencies
 ```
 cd nodejs-express-template
